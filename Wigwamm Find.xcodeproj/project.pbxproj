@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		88E44D6F1AF18364006F1A28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44D6E1AF18364006F1A28 /* main.m */; };
-		88E44D721AF18364006F1A28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44D711AF18364006F1A28 /* AppDelegate.m */; };
 		88E44D781AF18364006F1A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E44D761AF18364006F1A28 /* Main.storyboard */; };
 		88E44D7A1AF18364006F1A28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E44D791AF18364006F1A28 /* Images.xcassets */; };
 		88E44D7D1AF18364006F1A28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E44D7B1AF18364006F1A28 /* LaunchScreen.xib */; };
 		88E44D891AF18364006F1A28 /* Wigwamm_FindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44D881AF18364006F1A28 /* Wigwamm_FindTests.m */; };
-		88E44D9B1AF18A6A006F1A28 /* WIGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44D9A1AF18A6A006F1A28 /* WIGHomeViewController.m */; };
+		88E44DB21AF1940F006F1A28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44DA81AF1940F006F1A28 /* AppDelegate.m */; };
+		88E44DB31AF1940F006F1A28 /* UIColor+Wigwamm.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44DAB1AF1940F006F1A28 /* UIColor+Wigwamm.m */; };
+		88E44DB41AF1940F006F1A28 /* WIGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44DAE1AF1940F006F1A28 /* WIGHomeViewController.m */; };
+		88E44DB51AF1940F006F1A28 /* WIGPricingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44DB01AF1940F006F1A28 /* WIGPricingViewController.m */; };
+		88E44DBA1AF19471006F1A28 /* WIGPricingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44DB81AF19471006F1A28 /* WIGPricingTableViewCell.m */; };
+		88E44DBB1AF19471006F1A28 /* WIGPricingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E44DB91AF19471006F1A28 /* WIGPricingTableViewCell.xib */; };
+		88E44DC11AF1A122006F1A28 /* WIGNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44DC01AF1A122006F1A28 /* WIGNavigationBar.m */; };
+		88E44DC41AF1A235006F1A28 /* UINavigationBar+Wigwamm.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44DC31AF1A235006F1A28 /* UINavigationBar+Wigwamm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +36,27 @@
 		88E44D691AF18364006F1A28 /* Wigwamm Find.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wigwamm Find.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E44D6D1AF18364006F1A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88E44D6E1AF18364006F1A28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		88E44D701AF18364006F1A28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		88E44D711AF18364006F1A28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		88E44D771AF18364006F1A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88E44D791AF18364006F1A28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		88E44D7C1AF18364006F1A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		88E44D821AF18364006F1A28 /* Wigwamm FindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wigwamm FindTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E44D871AF18364006F1A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88E44D881AF18364006F1A28 /* Wigwamm_FindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wigwamm_FindTests.m; sourceTree = "<group>"; };
-		88E44D991AF18A6A006F1A28 /* WIGHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIGHomeViewController.h; sourceTree = "<group>"; };
-		88E44D9A1AF18A6A006F1A28 /* WIGHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIGHomeViewController.m; sourceTree = "<group>"; };
+		88E44DA71AF1940F006F1A28 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		88E44DA81AF1940F006F1A28 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		88E44DAA1AF1940F006F1A28 /* UIColor+Wigwamm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Wigwamm.h"; sourceTree = "<group>"; };
+		88E44DAB1AF1940F006F1A28 /* UIColor+Wigwamm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Wigwamm.m"; sourceTree = "<group>"; };
+		88E44DAD1AF1940F006F1A28 /* WIGHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIGHomeViewController.h; sourceTree = "<group>"; };
+		88E44DAE1AF1940F006F1A28 /* WIGHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIGHomeViewController.m; sourceTree = "<group>"; };
+		88E44DAF1AF1940F006F1A28 /* WIGPricingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIGPricingViewController.h; sourceTree = "<group>"; };
+		88E44DB01AF1940F006F1A28 /* WIGPricingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIGPricingViewController.m; sourceTree = "<group>"; };
+		88E44DB71AF19471006F1A28 /* WIGPricingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIGPricingTableViewCell.h; sourceTree = "<group>"; };
+		88E44DB81AF19471006F1A28 /* WIGPricingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIGPricingTableViewCell.m; sourceTree = "<group>"; };
+		88E44DB91AF19471006F1A28 /* WIGPricingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WIGPricingTableViewCell.xib; sourceTree = "<group>"; };
+		88E44DBF1AF1A122006F1A28 /* WIGNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIGNavigationBar.h; sourceTree = "<group>"; };
+		88E44DC01AF1A122006F1A28 /* WIGNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIGNavigationBar.m; sourceTree = "<group>"; };
+		88E44DC21AF1A235006F1A28 /* UINavigationBar+Wigwamm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Wigwamm.h"; sourceTree = "<group>"; };
+		88E44DC31AF1A235006F1A28 /* UINavigationBar+Wigwamm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Wigwamm.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +98,10 @@
 		88E44D6B1AF18364006F1A28 /* Wigwamm Find */ = {
 			isa = PBXGroup;
 			children = (
-				88E44D701AF18364006F1A28 /* AppDelegate.h */,
-				88E44D711AF18364006F1A28 /* AppDelegate.m */,
-				88E44D951AF18A4B006F1A28 /* ViewControllers */,
+				88E44DA51AF1940F006F1A28 /* src */,
 				88E44D761AF18364006F1A28 /* Main.storyboard */,
-				88E44D791AF18364006F1A28 /* Images.xcassets */,
 				88E44D7B1AF18364006F1A28 /* LaunchScreen.xib */,
+				88E44D791AF18364006F1A28 /* Images.xcassets */,
 				88E44D6C1AF18364006F1A28 /* Supporting Files */,
 			);
 			path = "Wigwamm Find";
@@ -118,21 +133,66 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		88E44D951AF18A4B006F1A28 /* ViewControllers */ = {
+		88E44DA51AF1940F006F1A28 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				88E44D9C1AF18A7D006F1A28 /* Home */,
+				88E44DA61AF1940F006F1A28 /* AppDelegate */,
+				88E44DA91AF1940F006F1A28 /* Helpers */,
+				88E44DAC1AF1940F006F1A28 /* ViewControllers */,
+				88E44DB11AF1940F006F1A28 /* Views */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		88E44DA61AF1940F006F1A28 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				88E44DA71AF1940F006F1A28 /* AppDelegate.h */,
+				88E44DA81AF1940F006F1A28 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		88E44DA91AF1940F006F1A28 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				88E44DAA1AF1940F006F1A28 /* UIColor+Wigwamm.h */,
+				88E44DAB1AF1940F006F1A28 /* UIColor+Wigwamm.m */,
+				88E44DBF1AF1A122006F1A28 /* WIGNavigationBar.h */,
+				88E44DC01AF1A122006F1A28 /* WIGNavigationBar.m */,
+				88E44DC21AF1A235006F1A28 /* UINavigationBar+Wigwamm.h */,
+				88E44DC31AF1A235006F1A28 /* UINavigationBar+Wigwamm.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		88E44DAC1AF1940F006F1A28 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				88E44DAD1AF1940F006F1A28 /* WIGHomeViewController.h */,
+				88E44DAE1AF1940F006F1A28 /* WIGHomeViewController.m */,
+				88E44DAF1AF1940F006F1A28 /* WIGPricingViewController.h */,
+				88E44DB01AF1940F006F1A28 /* WIGPricingViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		88E44D9C1AF18A7D006F1A28 /* Home */ = {
+		88E44DB11AF1940F006F1A28 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				88E44D991AF18A6A006F1A28 /* WIGHomeViewController.h */,
-				88E44D9A1AF18A6A006F1A28 /* WIGHomeViewController.m */,
+				88E44DB61AF19448006F1A28 /* TableViewCells */,
 			);
-			name = Home;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		88E44DB61AF19448006F1A28 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				88E44DB71AF19471006F1A28 /* WIGPricingTableViewCell.h */,
+				88E44DB81AF19471006F1A28 /* WIGPricingTableViewCell.m */,
+				88E44DB91AF19471006F1A28 /* WIGPricingTableViewCell.xib */,
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +277,7 @@
 			files = (
 				88E44D781AF18364006F1A28 /* Main.storyboard in Resources */,
 				88E44D7D1AF18364006F1A28 /* LaunchScreen.xib in Resources */,
+				88E44DBB1AF19471006F1A28 /* WIGPricingTableViewCell.xib in Resources */,
 				88E44D7A1AF18364006F1A28 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,8 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88E44D9B1AF18A6A006F1A28 /* WIGHomeViewController.m in Sources */,
-				88E44D721AF18364006F1A28 /* AppDelegate.m in Sources */,
+				88E44DB21AF1940F006F1A28 /* AppDelegate.m in Sources */,
+				88E44DC11AF1A122006F1A28 /* WIGNavigationBar.m in Sources */,
+				88E44DB41AF1940F006F1A28 /* WIGHomeViewController.m in Sources */,
+				88E44DC41AF1A235006F1A28 /* UINavigationBar+Wigwamm.m in Sources */,
+				88E44DBA1AF19471006F1A28 /* WIGPricingTableViewCell.m in Sources */,
+				88E44DB31AF1940F006F1A28 /* UIColor+Wigwamm.m in Sources */,
+				88E44DB51AF1940F006F1A28 /* WIGPricingViewController.m in Sources */,
 				88E44D6F1AF18364006F1A28 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,7 @@
 //
 
 #import "WIGHomeViewController.h"
+#import "UIColor+Wigwamm.h"
 
 @interface WIGHomeViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor w_orangeColor];
 }
 
 @end
