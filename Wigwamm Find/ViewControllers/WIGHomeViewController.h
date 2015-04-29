@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WIGHomeViewController.h
 //  Wigwamm Find
 //
 //  Created by Simone Ferrini on 29/04/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WIGHomeViewController : UIViewController
 
 @end
-

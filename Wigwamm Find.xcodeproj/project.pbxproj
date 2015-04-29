@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		88E44D6F1AF18364006F1A28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44D6E1AF18364006F1A28 /* main.m */; };
 		88E44D721AF18364006F1A28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44D711AF18364006F1A28 /* AppDelegate.m */; };
-		88E44D751AF18364006F1A28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44D741AF18364006F1A28 /* ViewController.m */; };
 		88E44D781AF18364006F1A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E44D761AF18364006F1A28 /* Main.storyboard */; };
 		88E44D7A1AF18364006F1A28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E44D791AF18364006F1A28 /* Images.xcassets */; };
 		88E44D7D1AF18364006F1A28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88E44D7B1AF18364006F1A28 /* LaunchScreen.xib */; };
 		88E44D891AF18364006F1A28 /* Wigwamm_FindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44D881AF18364006F1A28 /* Wigwamm_FindTests.m */; };
+		88E44D9B1AF18A6A006F1A28 /* WIGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E44D9A1AF18A6A006F1A28 /* WIGHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +32,14 @@
 		88E44D6E1AF18364006F1A28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		88E44D701AF18364006F1A28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88E44D711AF18364006F1A28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		88E44D731AF18364006F1A28 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		88E44D741AF18364006F1A28 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		88E44D771AF18364006F1A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88E44D791AF18364006F1A28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		88E44D7C1AF18364006F1A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		88E44D821AF18364006F1A28 /* Wigwamm FindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wigwamm FindTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E44D871AF18364006F1A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88E44D881AF18364006F1A28 /* Wigwamm_FindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wigwamm_FindTests.m; sourceTree = "<group>"; };
+		88E44D991AF18A6A006F1A28 /* WIGHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WIGHomeViewController.h; sourceTree = "<group>"; };
+		88E44D9A1AF18A6A006F1A28 /* WIGHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WIGHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,7 @@
 			children = (
 				88E44D701AF18364006F1A28 /* AppDelegate.h */,
 				88E44D711AF18364006F1A28 /* AppDelegate.m */,
-				88E44D731AF18364006F1A28 /* ViewController.h */,
-				88E44D741AF18364006F1A28 /* ViewController.m */,
+				88E44D951AF18A4B006F1A28 /* ViewControllers */,
 				88E44D761AF18364006F1A28 /* Main.storyboard */,
 				88E44D791AF18364006F1A28 /* Images.xcassets */,
 				88E44D7B1AF18364006F1A28 /* LaunchScreen.xib */,
@@ -117,6 +116,23 @@
 				88E44D871AF18364006F1A28 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88E44D951AF18A4B006F1A28 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				88E44D9C1AF18A7D006F1A28 /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		88E44D9C1AF18A7D006F1A28 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				88E44D991AF18A6A006F1A28 /* WIGHomeViewController.h */,
+				88E44D9A1AF18A6A006F1A28 /* WIGHomeViewController.m */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88E44D751AF18364006F1A28 /* ViewController.m in Sources */,
+				88E44D9B1AF18A6A006F1A28 /* WIGHomeViewController.m in Sources */,
 				88E44D721AF18364006F1A28 /* AppDelegate.m in Sources */,
 				88E44D6F1AF18364006F1A28 /* main.m in Sources */,
 			);
@@ -416,6 +432,7 @@
 				88E44D8E1AF18364006F1A28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88E44D8F1AF18364006F1A28 /* Build configuration list for PBXNativeTarget "Wigwamm FindTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +441,7 @@
 				88E44D911AF18364006F1A28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
